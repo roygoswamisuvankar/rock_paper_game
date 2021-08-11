@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div>
+        <center><h1>Rock Paper & Scissors Game</h1></center>
+        <input type="text" id="inp" onfocus="this.value=''" autocomplete="off" >
+        <input type="submit" id="enter" value="Enter"><br>
+        <label>Score Board</label>
+        
+        <table border="1">
+            <thead>
+                <th>Computer's points</th>
+                <th id="user_name">User's Points</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label id="com_po">0</label></td>
+                    <td><label id="user_po">0</label></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Reload Game" id="reload">
+    </div>
+    </body>
+    <footer>
+        <center>&copy;Suvankar Roy Goswami 2021<br>
+        </center>
+    </footer>
+</html>

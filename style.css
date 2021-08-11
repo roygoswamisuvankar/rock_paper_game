@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 1%;
+}
+input[type=text], input[type=submit], table, label{
+    position: relative;
+    left: 35%;
+    top: 30%;
+}
+input[type=text]{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 10px 16px;
+}
+input[type=submit]{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+label{
+    font-family: monospace;
+    font-size: 20px;
+    color: goldenrod;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+th, td{
+    padding: 10px 15px;
+}
+h1{
+    font-family: monospace;
+    color: blue;
+}
